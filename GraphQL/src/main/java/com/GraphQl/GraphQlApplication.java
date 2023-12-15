@@ -51,7 +51,7 @@ public class GraphQlApplication implements ApplicationRunner {
 		users.add(new Users(0, "test-06", "test-06", new Password(0, "test-06@123"), new SchoolInfo(0, "test-06", "test-06", "test-06")));
 		users.add(new Users(0, "test-07", "test-07", new Password(0, "test-07@123"), new SchoolInfo(0, "test-07", "test-07", "test-07")));
 		users.add(new Users(0, "test-08", "test-08", new Password(0, "test-08@123"), new SchoolInfo(0, "test-08", "test-08", "test-08")));
-		System.out.println("Data inserted sucessfully...");
+		System.out.println("Data inserted sucessfully...DONE");
 		userDao.saveAll(users);
 	}
 
