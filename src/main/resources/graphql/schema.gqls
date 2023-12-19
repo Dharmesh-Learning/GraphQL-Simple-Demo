@@ -1,5 +1,5 @@
 type Query {
-	getUsersQL: [Users]
+	#getUsersQL: [Users]
 	getUserByIdQLTEST(userName:String): Users
 }
 
